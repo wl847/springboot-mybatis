@@ -1,0 +1,11 @@
+#集成DataSource
+
+mybatis:
+  mapper-locations: classpath:cn/it/springboot/mapper/*Mapper.xml
+
+#分页配置
+pagehelper:
+  helper-dialect: mysql
+  params: count=countSql
+  reasonable: true
+  support-methods-arguments: true
